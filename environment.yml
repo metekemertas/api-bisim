@@ -1,0 +1,22 @@
+name: apibisim
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib-base=3.5.2=py37h80cb303_0
+  - numpy=1.21.2=py37h4b4dc7a_0
+  - numpy-base=1.21.2=py37he0bd621_0
+  - pillow=8.4.0=py37h98e4679_0
+  - pot=0.8.2=py37hb276a58_0
+  - pytorch=1.11.0=py3.7_0
+  - scipy=1.7.3=py37h8c7af03_0
+  - pip:
+    - matplotlib==3.5.1
+    - scikit-learn==1.0.2
+    - scikit-learn-extra==0.2.0
+    - tensorboard==2.8.0
+    - tensorboard-data-server==0.6.1
+    - tensorboard-plugin-wit==1.8.1
+    - termcolor==1.1.0
+    - tqdm==4.62.3
